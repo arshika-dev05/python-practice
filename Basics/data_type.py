@@ -1,5 +1,5 @@
 # Python Data type
-# Author=Arshika kumari
+# Author: Arshika kumari
 # learning Python
 # Topic coverd (string,Integer,float,boolean)
 # type() function
