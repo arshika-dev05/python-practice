@@ -9,6 +9,7 @@ roll_no=8
 marks=85.80
 is_pass=True
 message="My name is Arshika, i am 21 years old"
+
 print(type(name),name)
 print(type(age),age)
 print(type(roll_no),roll_no)

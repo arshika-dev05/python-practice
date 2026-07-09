@@ -11,6 +11,7 @@ store_bool=[True,False]
 all_mix=["apple",4,True,6,"arshika",3.5]
 
 # then 👇 display
+print(f"checking data type {type(fruits)} ")
 print(all_mix)
 print(num)
 print(float_num)
