@@ -10,5 +10,5 @@ result=local()
 print(result)
 
 # give NameError 
-print("variable outside the function =",word)
+# print("variable outside the function =",word)
 # name 'word' is not defined. Did you mean: 'ord'?
