@@ -1,4 +1,4 @@
-num=int(input("enter no for eletem="))
+num=int(input("enter no for element="))
 dic={}
 for i in range(num):
     key=input("enter key=")
