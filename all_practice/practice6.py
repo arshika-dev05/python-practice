@@ -1,4 +1,4 @@
-num=int(input("enter positive no="))
+num=int(input("enter number to reversed="))
 rev=0
 if num>=0:
     while num!=0:
