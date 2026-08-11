@@ -8,5 +8,8 @@ for x in range(1,num):
 print(store) 
 for i in store:
     total+=i 
-
-print("pefect=",total)       
+       
+if total==num:
+    print("perfect" ,total)
+else:
+    print("not perfect",total)    
