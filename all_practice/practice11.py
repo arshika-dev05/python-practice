@@ -1,14 +1,20 @@
 # 
-# start=int(input("enter starting no="))
-num=int(input("enter ending no="))
-count=0
+start=int(input("enter starting no="))
+end=int(input("enter ending no="))
+ 
 store=[]
-# display all prime no 
-if num==1:
-    print("prime no")
-else:
-    for x in range(2,num): 
-        if num%x==0:
-            count+=1   
-            print(x)
-print("count prime",count)            
+for x in range(start,end+1):
+    is_prime=True
+    for i in range(2,int(x**0.5)+1):
+        if x%i==0:
+            is_prime=False
+            break
+    if is_prime:            
+        store.append(x) 
+        
+        
+ 
+print(store)
+ 
+
+    

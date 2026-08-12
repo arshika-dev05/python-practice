@@ -1,5 +1,5 @@
 # WAP a program to check input no is a perfect no or not.
-num=int(input("enter number="))
+num=int(input("enter number="))#6
 store=[]
 total=0
 for x in range(1,num):
