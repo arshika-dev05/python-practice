@@ -1,6 +1,6 @@
 lis=[5,-2,10,-7,0,28]
-ass=[]
-copy=ass
+copy=lis
+ 
 print(lis)
 leng=len(lis)
 for x in range(leng):
@@ -9,7 +9,8 @@ for x in range(leng):
         if lis[x]>lis[i]:
            lis[x],lis[i]=lis[i],lis[x]
               
-ass.append(lis)             
-print("sorting",ass)
-rev=ass[::-1]
-print(rev)
+   
+print(copy)           
+print("sorting",lis)
+rev=lis[::-1]
+print("reverse=",rev)
