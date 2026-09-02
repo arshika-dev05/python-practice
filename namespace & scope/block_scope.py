@@ -20,7 +20,7 @@ def block_scope():
 
 result=block_scope()
 print("sum =",result)
-# print(num1)
+# print(num1) 
 # print(num2)
 
 

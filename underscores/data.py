@@ -1,0 +1,1 @@
+data_list=["associative","apple","ball","bag","begineer","banana","raman"]
