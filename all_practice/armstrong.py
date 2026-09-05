@@ -8,6 +8,8 @@ def arm(num):
        count=count+digit**total_length_is_power
        num=num//10
     return count    
+
+
 num=int(input("enter num="))
 copy=num
 result=arm(num) 
